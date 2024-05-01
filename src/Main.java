@@ -6,9 +6,6 @@ import java.io.IOException;
 public class Main {
     static StringBuilder strBuilder = new StringBuilder();
 
-    public Main() throws IOException {
-    }
-
     private static void createDirectory(String directoryPath) {
         File directory = new File(directoryPath);
         if (directory.mkdir()) {
